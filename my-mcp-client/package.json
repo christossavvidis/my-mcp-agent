@@ -1,0 +1,22 @@
+{
+  "name": "my-mcp-client",
+  "version": "1.0.0",
+  "description": "My MCP Client",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "my-mcp-client"
+  },
+  "author": "chs",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.8.0",
+    "esbuild": "^0.25.2",
+    "express": "^5.1.0",
+    "launchdarkly-eventsource": "^2.0.3"
+  }
+}
