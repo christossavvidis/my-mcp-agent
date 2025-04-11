@@ -26,9 +26,9 @@ curl --location 'http://localhost:3001/messages?sessionId=<sessionID>' \
     "jsonrpc": "2.0",
     "method": "tools/call",
     "params": {
-      "name": "answerQuestion1",
+      "name": "answerQuestion",
       "arguments": {
-        "question": ""
+        "question": "What is the meaning of life?"
       }
     },
     "id": 1
